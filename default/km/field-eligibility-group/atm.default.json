@@ -1,8 +1,8 @@
 {
-  "$id": "basicSolution_restaurant",
+  "$id": "atm.default",
   "$schema": "https://schema.yext.com/config/km/field-eligibility-group/v1",
-  "name": "basicSolution_Restaurant-default",
-  "entityType": "restaurant",
+  "name": "ATM-default",
+  "entityType": "atm",
   "fields": [
     "c_activeInAnswers",
     "c_primaryCTA",

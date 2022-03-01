@@ -1,10 +1,11 @@
 {
-  "$id": "basicSolution_atm",
+  "$id": "job.default",
   "$schema": "https://schema.yext.com/config/km/field-eligibility-group/v1",
-  "name": "basicSolution_ATM-default",
-  "entityType": "atm",
+  "name": "Job-default",
+  "entityType": "job",
   "fields": [
     "c_activeInAnswers",
+    "c_department",
     "c_primaryCTA",
     "c_secondaryCTA"
   ]

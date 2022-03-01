@@ -1,9 +1,10 @@
 {
-  "$id": "basicSolution_location",
+  "$id": "event.default",
   "$schema": "https://schema.yext.com/config/km/field-eligibility-group/v1",
-  "name": "basicSolution_Location-default",
-  "entityType": "location",
+  "name": "Event-default",
+  "entityType": "event",
   "fields": [
+    "c_activeInAnswers",
     "c_primaryCTA",
     "c_secondaryCTA"
   ]

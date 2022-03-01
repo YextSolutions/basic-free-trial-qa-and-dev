@@ -1,7 +1,7 @@
 {
-  "$id": "basicSolution_financialProfessional",
+  "$id": "financialProfessional.default",
   "$schema": "https://schema.yext.com/config/km/field-eligibility-group/v1",
-  "name": "basicSolution_Financial Professional-default",
+  "name": "Financial Professional-default",
   "entityType": "financialProfessional",
   "fields": [
     "c_activeInAnswers"
