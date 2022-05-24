@@ -9,20 +9,24 @@
       "entityTypes": [
         "faq"
       ],
-      "facetOrder": [],
       "name": "FAQs",
       "savedSearchId": "40233348",
       "searchableFields": {
         "builtin.entityType": {
           "nlpFilter": true
         },
-        "name": {
-          "semanticTextSearch": true
-        },
         "keywords": {
           "textSearch": true
+        },
+        "name": {
+          "semanticTextSearch": true
         }
       },
+      "semanticVerticalIntents": [
+        "faqs",
+        "questions"
+      ],
+      "semanticVerticalThreshold": 0.2,
       "sortBys": [],
       "source": "KNOWLEDGE_MANAGER"
     },
@@ -30,6 +34,7 @@
       "apiKey": "REPLACE_API_KEY",
       "cx": "REPLACE_CX_KEY",
       "name": "Links",
+      "semanticVerticalIntents": [],
       "siteRestricted": false,
       "source": "GOOGLE_CSE",
       "useSynonyms": "ALL_SYNONYMS"
@@ -39,13 +44,13 @@
         "fieldValues": {
           "eligibleFields": [
             "mainPhone"
-          ]
+          ],
+          "predictionMode": "CLASSIFIER"
         }
       },
       "entityTypes": [
         "location"
       ],
-      "facetOrder": [],
       "name": "Locations",
       "savedSearchId": "40238747",
       "searchableFields": {
@@ -55,13 +60,18 @@
         "builtin.location": {
           "nlpFilter": true
         },
-        "name": {
+        "keywords": {
           "textSearch": true
         },
-        "keywords": {
+        "name": {
           "textSearch": true
         }
       },
+      "semanticVerticalIntents": [
+        "locations",
+        "locations near me"
+      ],
+      "semanticVerticalThreshold": 0.2,
       "sortBys": [],
       "source": "KNOWLEDGE_MANAGER"
     },
@@ -108,6 +118,11 @@
           "nlpFilter": true
         }
       },
+      "semanticVerticalIntents": [
+        "products",
+        "items"
+      ],
+      "semanticVerticalThreshold": 0.2,
       "sortBys": [],
       "source": "KNOWLEDGE_MANAGER"
     }
@@ -142,6 +157,8 @@
   "localizations": {},
   "additionalSearchablePlaces": [],
   "querySuggestions": {
+    "disablePopularQueries": false,
+    "verticalPromptsOnEmpty": false,
     "popularQueriesBlacklistedTerms": [],
     "universalPrompts": [
       "Locations near me",
